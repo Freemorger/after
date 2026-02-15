@@ -21,4 +21,5 @@ supported time specifiers:
 - s/S (seconds)
 - m/M (minutes)
 - h/H (hours)
-- d/D (days, if you really gonna to)
+- d/D (days)
+- if none: expects seconds (e.g. `after 10 cmd` would run cmd after 10 secs)
